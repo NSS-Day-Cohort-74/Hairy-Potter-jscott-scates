@@ -120,12 +120,12 @@ In the `main.js` module, invoke the `PotteryList` component function. Take its r
 > 🧨 Before you click the "Assessment Complete" button on the Learning Platform, add your answers below for each question and make a commit. It is your option to request a face-to-face meeting with a coach for a vocabulary review.
 
 1. Explain how you got the HTML, with the correct data, displayed in the browser?
-   > Your answer here
+   > For the <article> in index.html we set a class = "potteryList". To get the correct HTML I set potteryInnerHTML = document.getElementsByClassName("potteryList")[0]. This allowed me to access the class "potteryList" to add the HTML to. The index of [0] is used to reference the first element with the class="potteryList" to target where the HTML should go when executed by setting potteryInnerHTML.innerHTML = potteryHTML.
 2. In the **PotteryList** module, when you iterate your pottery, you need to show the evidence of what the **weight** property's value is for the 2nd piece of pottery. Use [Loom](https://www.loom.com/) to record your browser window with the developer tools open and show those values.
-   > Paste your video's public URL here
+   > [Paste your video's public URL here](https://www.loom.com/share/e2fe3f7c00b542388cfb57ce6eb8f2a2?sid=efa00ad7-feac-44de-b7c6-84fcefa13abe)
 3. The **PotteryWheel** module has a single function named `makePottery`. Why doesn't that module have all of the other code in it?
-   > Your answer here
+   > Using the module method allowed us to simplify the debugging process as all the related code to makePottery was stored within the module. In addition, if you look at the index.html file, we are not pointing the scripts module to PotteryWheel.js but the main.js. If we placed all code within this module and did not properly import and run items on main.js, the scripts we would expect to run would not run. 
 4. The pottery shop has learned that there is a set of customers that are willing to buy cracked pottery at a discounted price of $2.50. That means that the cracked pottery should now be displayed in the catalog. Explain the changes that this new business strategy would cause to your algorithm.
-   > Your answer here
+   > In the PotteryCatalog.js module, I would add an else statement that for all other pottery, the piece.price = 2.50.
 5. In the **Kiln** module, you have a `firePottery()` function. You need to demonstrate how to use the debugger to verify the values of the parameters for that function when your code runs. Use [Loom](https://www.loom.com/) to record your browser window with the developer tools open and show those values.
    > Paste your video's public URL here

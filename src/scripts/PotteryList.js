@@ -1,5 +1,6 @@
 import { usePottery } from './PotteryCatalog.js'
 
+
 export const PotteryList = () => {
     let potteryListHTML = ''
     for (const piece of usePottery()) {

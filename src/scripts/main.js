@@ -12,6 +12,7 @@ let piggyBank = makePottery('Piggy Bank', 9, 20)
 let plate = makePottery('Plate', .5, 1)
 
 // Fire each piece of pottery in the kiln
+debugger
 mug = firePottery(mug, 3000)
 platter = firePottery(platter, 2200)
 vase = firePottery(vase, 2000)
@@ -32,7 +33,6 @@ plate = toSellOrNotToSell(plate)
 //console.log(usePottery())
 
 // Invoke the component function that renders the HTML list
-debugger
  const potteryHTML = PotteryList(usePottery())
  let potteryInnerHTML = document.getElementsByClassName("potteryList")[0] //used index of [0] to access the element due to getElementsByClassName syntax. It needs to know what to target. 
 potteryInnerHTML.innerHTML = potteryHTML
