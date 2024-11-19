@@ -1,6 +1,5 @@
 let potteryKey = 1
-debugger
-const potteryToMake = []
+
 export const makePottery = (potteryShape, potteryWeight, potteryHeight) => {
     const potteryObject = {
         shape: potteryShape,
@@ -8,6 +7,5 @@ export const makePottery = (potteryShape, potteryWeight, potteryHeight) => {
         height: potteryHeight,
         id: potteryKey ++
     }
-    potteryToMake.push(potteryObject)
-    return potteryToMake
+    return potteryObject
 }
