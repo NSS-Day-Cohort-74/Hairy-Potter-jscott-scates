@@ -128,4 +128,4 @@ In the `main.js` module, invoke the `PotteryList` component function. Take its r
 4. The pottery shop has learned that there is a set of customers that are willing to buy cracked pottery at a discounted price of $2.50. That means that the cracked pottery should now be displayed in the catalog. Explain the changes that this new business strategy would cause to your algorithm.
    > In the PotteryCatalog.js module, I would add an else statement that for all other pottery, the piece.price = 2.50.
 5. In the **Kiln** module, you have a `firePottery()` function. You need to demonstrate how to use the debugger to verify the values of the parameters for that function when your code runs. Use [Loom](https://www.loom.com/) to record your browser window with the developer tools open and show those values.
-   > Paste your video's public URL here
+   > [Paste your video's public URL here](https://www.loom.com/share/89f62b29256c4a93ac84eaa1339ad21f?sid=687c641a-83e2-477f-b585-7b7db0b63187)
